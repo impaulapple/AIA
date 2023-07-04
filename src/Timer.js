@@ -33,7 +33,7 @@ const Timer = ({ isRunning }) => {
 
     return (
         <div>
-            <h2>Time: {formatTime(time)}</h2>
+            <p style={{ fontSize: '2rem', fontWeight: 'bold', margin: 0, color:'#eb2f2f' }}>Time: {formatTime(time)}</p>
         </div>
     );
 };
